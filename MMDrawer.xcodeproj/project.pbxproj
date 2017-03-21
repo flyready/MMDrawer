@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0826E4EB2AEA87E4C7182806 /* libPods-MMDrawer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FF576FE6333DDBE857E0A1F /* libPods-MMDrawer.a */; };
+		6B8938131E8114AF005C78B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B8938121E8114AF005C78B5 /* main.m */; };
+		6B8938161E8114AF005C78B5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B8938151E8114AF005C78B5 /* AppDelegate.m */; };
+		6B8938191E8114AF005C78B5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B8938181E8114AF005C78B5 /* ViewController.m */; };
+		6B89381C1E8114AF005C78B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B89381A1E8114AF005C78B5 /* Main.storyboard */; };
+		6B89381E1E8114AF005C78B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B89381D1E8114AF005C78B5 /* Assets.xcassets */; };
+		6B8938211E8114AF005C78B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B89381F1E8114AF005C78B5 /* LaunchScreen.storyboard */; };
+		6B89382C1E8114AF005C78B5 /* MMDrawerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B89382B1E8114AF005C78B5 /* MMDrawerTests.m */; };
+		6B8938371E8114AF005C78B5 /* MMDrawerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B8938361E8114AF005C78B5 /* MMDrawerUITests.m */; };
+		6B8938461E811745005C78B5 /* MMArticleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B8938451E811745005C78B5 /* MMArticleModel.m */; };
+		6B8938481E8117D3005C78B5 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6B8938471E8117D3005C78B5 /* 1.jpg */; };
+		6B89384B1E8119D6005C78B5 /* MMDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B89384A1E8119D6005C78B5 /* MMDetailView.m */; };
+		6B89384E1E811E70005C78B5 /* MMTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B89384D1E811E70005C78B5 /* MMTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6B8938281E8114AF005C78B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B8938061E8114AF005C78B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B89380D1E8114AF005C78B5;
+			remoteInfo = MMDrawer;
+		};
+		6B8938331E8114AF005C78B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B8938061E8114AF005C78B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B89380D1E8114AF005C78B5;
+			remoteInfo = MMDrawer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		23061FE8844666447010EC00 /* Pods-MMDrawer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MMDrawer.release.xcconfig"; path = "Pods/Target Support Files/Pods-MMDrawer/Pods-MMDrawer.release.xcconfig"; sourceTree = "<group>"; };
+		6B89380E1E8114AF005C78B5 /* MMDrawer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MMDrawer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B8938121E8114AF005C78B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6B8938141E8114AF005C78B5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6B8938151E8114AF005C78B5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6B8938171E8114AF005C78B5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6B8938181E8114AF005C78B5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6B89381B1E8114AF005C78B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6B89381D1E8114AF005C78B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6B8938201E8114AF005C78B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6B8938221E8114AF005C78B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B8938271E8114AF005C78B5 /* MMDrawerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MMDrawerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B89382B1E8114AF005C78B5 /* MMDrawerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMDrawerTests.m; sourceTree = "<group>"; };
+		6B89382D1E8114AF005C78B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B8938321E8114AF005C78B5 /* MMDrawerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MMDrawerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B8938361E8114AF005C78B5 /* MMDrawerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMDrawerUITests.m; sourceTree = "<group>"; };
+		6B8938381E8114AF005C78B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B8938441E811745005C78B5 /* MMArticleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMArticleModel.h; sourceTree = "<group>"; };
+		6B8938451E811745005C78B5 /* MMArticleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMArticleModel.m; sourceTree = "<group>"; };
+		6B8938471E8117D3005C78B5 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		6B8938491E8119D6005C78B5 /* MMDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDetailView.h; sourceTree = "<group>"; };
+		6B89384A1E8119D6005C78B5 /* MMDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDetailView.m; sourceTree = "<group>"; };
+		6B89384C1E811E70005C78B5 /* MMTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMTableViewCell.h; sourceTree = "<group>"; };
+		6B89384D1E811E70005C78B5 /* MMTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMTableViewCell.m; sourceTree = "<group>"; };
+		8FF576FE6333DDBE857E0A1F /* libPods-MMDrawer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MMDrawer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A48E5C07F01BE1E12DFB5755 /* Pods-MMDrawer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MMDrawer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MMDrawer/Pods-MMDrawer.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B89380B1E8114AF005C78B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0826E4EB2AEA87E4C7182806 /* libPods-MMDrawer.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B8938241E8114AF005C78B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B89382F1E8114AF005C78B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D9B06F6A385CF7B6B7B5551 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8FF576FE6333DDBE857E0A1F /* libPods-MMDrawer.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6B8938051E8114AF005C78B5 = {
+			isa = PBXGroup;
+			children = (
+				6B8938101E8114AF005C78B5 /* MMDrawer */,
+				6B89382A1E8114AF005C78B5 /* MMDrawerTests */,
+				6B8938351E8114AF005C78B5 /* MMDrawerUITests */,
+				6B89380F1E8114AF005C78B5 /* Products */,
+				8862C721BE2DF89C54205778 /* Pods */,
+				0D9B06F6A385CF7B6B7B5551 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6B89380F1E8114AF005C78B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B89380E1E8114AF005C78B5 /* MMDrawer.app */,
+				6B8938271E8114AF005C78B5 /* MMDrawerTests.xctest */,
+				6B8938321E8114AF005C78B5 /* MMDrawerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B8938101E8114AF005C78B5 /* MMDrawer */ = {
+			isa = PBXGroup;
+			children = (
+				6B8938471E8117D3005C78B5 /* 1.jpg */,
+				6B8938141E8114AF005C78B5 /* AppDelegate.h */,
+				6B8938151E8114AF005C78B5 /* AppDelegate.m */,
+				6B8938171E8114AF005C78B5 /* ViewController.h */,
+				6B8938181E8114AF005C78B5 /* ViewController.m */,
+				6B89381A1E8114AF005C78B5 /* Main.storyboard */,
+				6B89381D1E8114AF005C78B5 /* Assets.xcassets */,
+				6B89381F1E8114AF005C78B5 /* LaunchScreen.storyboard */,
+				6B8938221E8114AF005C78B5 /* Info.plist */,
+				6B8938111E8114AF005C78B5 /* Supporting Files */,
+				6B8938441E811745005C78B5 /* MMArticleModel.h */,
+				6B8938451E811745005C78B5 /* MMArticleModel.m */,
+				6B8938491E8119D6005C78B5 /* MMDetailView.h */,
+				6B89384A1E8119D6005C78B5 /* MMDetailView.m */,
+				6B89384C1E811E70005C78B5 /* MMTableViewCell.h */,
+				6B89384D1E811E70005C78B5 /* MMTableViewCell.m */,
+			);
+			path = MMDrawer;
+			sourceTree = "<group>";
+		};
+		6B8938111E8114AF005C78B5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B8938121E8114AF005C78B5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6B89382A1E8114AF005C78B5 /* MMDrawerTests */ = {
+			isa = PBXGroup;
+			children = (
+				6B89382B1E8114AF005C78B5 /* MMDrawerTests.m */,
+				6B89382D1E8114AF005C78B5 /* Info.plist */,
+			);
+			path = MMDrawerTests;
+			sourceTree = "<group>";
+		};
+		6B8938351E8114AF005C78B5 /* MMDrawerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6B8938361E8114AF005C78B5 /* MMDrawerUITests.m */,
+				6B8938381E8114AF005C78B5 /* Info.plist */,
+			);
+			path = MMDrawerUITests;
+			sourceTree = "<group>";
+		};
+		8862C721BE2DF89C54205778 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A48E5C07F01BE1E12DFB5755 /* Pods-MMDrawer.debug.xcconfig */,
+				23061FE8844666447010EC00 /* Pods-MMDrawer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B89380D1E8114AF005C78B5 /* MMDrawer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B89383B1E8114AF005C78B5 /* Build configuration list for PBXNativeTarget "MMDrawer" */;
+			buildPhases = (
+				49D363E36232366F55F4CDB3 /* 📦 Check Pods Manifest.lock */,
+				6B89380A1E8114AF005C78B5 /* Sources */,
+				6B89380B1E8114AF005C78B5 /* Frameworks */,
+				6B89380C1E8114AF005C78B5 /* Resources */,
+				4E70E640915FB34A118C37D1 /* 📦 Embed Pods Frameworks */,
+				F361DFD928CE7127E718A489 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MMDrawer;
+			productName = MMDrawer;
+			productReference = 6B89380E1E8114AF005C78B5 /* MMDrawer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6B8938261E8114AF005C78B5 /* MMDrawerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B89383E1E8114AF005C78B5 /* Build configuration list for PBXNativeTarget "MMDrawerTests" */;
+			buildPhases = (
+				6B8938231E8114AF005C78B5 /* Sources */,
+				6B8938241E8114AF005C78B5 /* Frameworks */,
+				6B8938251E8114AF005C78B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B8938291E8114AF005C78B5 /* PBXTargetDependency */,
+			);
+			name = MMDrawerTests;
+			productName = MMDrawerTests;
+			productReference = 6B8938271E8114AF005C78B5 /* MMDrawerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6B8938311E8114AF005C78B5 /* MMDrawerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B8938411E8114AF005C78B5 /* Build configuration list for PBXNativeTarget "MMDrawerUITests" */;
+			buildPhases = (
+				6B89382E1E8114AF005C78B5 /* Sources */,
+				6B89382F1E8114AF005C78B5 /* Frameworks */,
+				6B8938301E8114AF005C78B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B8938341E8114AF005C78B5 /* PBXTargetDependency */,
+			);
+			name = MMDrawerUITests;
+			productName = MMDrawerUITests;
+			productReference = 6B8938321E8114AF005C78B5 /* MMDrawerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B8938061E8114AF005C78B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = MM;
+				TargetAttributes = {
+					6B89380D1E8114AF005C78B5 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					6B8938261E8114AF005C78B5 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 6B89380D1E8114AF005C78B5;
+					};
+					6B8938311E8114AF005C78B5 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 6B89380D1E8114AF005C78B5;
+					};
+				};
+			};
+			buildConfigurationList = 6B8938091E8114AF005C78B5 /* Build configuration list for PBXProject "MMDrawer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6B8938051E8114AF005C78B5;
+			productRefGroup = 6B89380F1E8114AF005C78B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B89380D1E8114AF005C78B5 /* MMDrawer */,
+				6B8938261E8114AF005C78B5 /* MMDrawerTests */,
+				6B8938311E8114AF005C78B5 /* MMDrawerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B89380C1E8114AF005C78B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B8938211E8114AF005C78B5 /* LaunchScreen.storyboard in Resources */,
+				6B8938481E8117D3005C78B5 /* 1.jpg in Resources */,
+				6B89381E1E8114AF005C78B5 /* Assets.xcassets in Resources */,
+				6B89381C1E8114AF005C78B5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B8938251E8114AF005C78B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B8938301E8114AF005C78B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		49D363E36232366F55F4CDB3 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4E70E640915FB34A118C37D1 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MMDrawer/Pods-MMDrawer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F361DFD928CE7127E718A489 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MMDrawer/Pods-MMDrawer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B89380A1E8114AF005C78B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B8938191E8114AF005C78B5 /* ViewController.m in Sources */,
+				6B8938161E8114AF005C78B5 /* AppDelegate.m in Sources */,
+				6B8938461E811745005C78B5 /* MMArticleModel.m in Sources */,
+				6B89384B1E8119D6005C78B5 /* MMDetailView.m in Sources */,
+				6B8938131E8114AF005C78B5 /* main.m in Sources */,
+				6B89384E1E811E70005C78B5 /* MMTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B8938231E8114AF005C78B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B89382C1E8114AF005C78B5 /* MMDrawerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B89382E1E8114AF005C78B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B8938371E8114AF005C78B5 /* MMDrawerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6B8938291E8114AF005C78B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B89380D1E8114AF005C78B5 /* MMDrawer */;
+			targetProxy = 6B8938281E8114AF005C78B5 /* PBXContainerItemProxy */;
+		};
+		6B8938341E8114AF005C78B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B89380D1E8114AF005C78B5 /* MMDrawer */;
+			targetProxy = 6B8938331E8114AF005C78B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6B89381A1E8114AF005C78B5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B89381B1E8114AF005C78B5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6B89381F1E8114AF005C78B5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B8938201E8114AF005C78B5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6B8938391E8114AF005C78B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6B89383A1E8114AF005C78B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B89383C1E8114AF005C78B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A48E5C07F01BE1E12DFB5755 /* Pods-MMDrawer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MMDrawer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mm.MMDrawer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6B89383D1E8114AF005C78B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23061FE8844666447010EC00 /* Pods-MMDrawer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MMDrawer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mm.MMDrawer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6B89383F1E8114AF005C78B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MMDrawerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mm.MMDrawerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MMDrawer.app/MMDrawer";
+			};
+			name = Debug;
+		};
+		6B8938401E8114AF005C78B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MMDrawerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mm.MMDrawerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MMDrawer.app/MMDrawer";
+			};
+			name = Release;
+		};
+		6B8938421E8114AF005C78B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MMDrawerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mm.MMDrawerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MMDrawer;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		6B8938431E8114AF005C78B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MMDrawerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mm.MMDrawerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MMDrawer;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B8938091E8114AF005C78B5 /* Build configuration list for PBXProject "MMDrawer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B8938391E8114AF005C78B5 /* Debug */,
+				6B89383A1E8114AF005C78B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B89383B1E8114AF005C78B5 /* Build configuration list for PBXNativeTarget "MMDrawer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B89383C1E8114AF005C78B5 /* Debug */,
+				6B89383D1E8114AF005C78B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B89383E1E8114AF005C78B5 /* Build configuration list for PBXNativeTarget "MMDrawerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B89383F1E8114AF005C78B5 /* Debug */,
+				6B8938401E8114AF005C78B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B8938411E8114AF005C78B5 /* Build configuration list for PBXNativeTarget "MMDrawerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B8938421E8114AF005C78B5 /* Debug */,
+				6B8938431E8114AF005C78B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B8938061E8114AF005C78B5 /* Project object */;
+}
